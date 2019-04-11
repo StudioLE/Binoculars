@@ -1,6 +1,6 @@
 language: csharp
 solution: Tracker.sln
-before_script:
+before_install:
   - mkdir -p "../../../../../../../Program Files/Dynamo/Dynamo Core/2/"
   - wget https://github.com/DynamoDS/Dynamo/releases/download/v2.1.0/DynamoCoreRuntime2.1.0.zip
   - unzip DynamoCoreRuntime2.1.0.zip -d "../../../../../../../Program Files/Dynamo/Dynamo Core/2/"
